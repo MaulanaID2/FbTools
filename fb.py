@@ -56,11 +56,11 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 
 Created.           : {}MaulanaID{}
 Github.            : {}https://github.com/MaulanaID{}
------------Menu Bot------------
-1 Cari acces Token Disini!
-2 AUTO LIKE! MAX.200
-3 AUTO COMMENT
-4 AUTO FRIEND REQUEST
+-----------------------Menu Bot----------------------
+                   1 Login Dulu Disini
+                  2 AUTO LIKE! MAX.200!
+                     3 AUTO COMMENT!
+                  4 AUTO FRIEND REQUEST!
 """.format(green,normal,green,normal)
 
 banner = """
@@ -89,9 +89,9 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 `````...-++//::--:-:::::::///+:`--::----:+.       
 .-.````.:::+++++/++:/:----:-...://///:---+`       
 .``````:-....:+yyys+++/:-----://++++++++oo-       
-Author : {}Mr.K3R3H{}                                                                     
-Facebook : {}Ronaldo Kereh{}
-Github : {}https://github.com/kereh{}
+Author : {}MaulanaID{}                                                                     
+Facebook : {}Maulana ID{}
+Github : {}https://github.com/MaulanaID{}
 """.format(green,normal,cyan,normal,green,normal)
 ###
 
@@ -108,9 +108,9 @@ info = time.strftime("%S:%M:%H")
 def generate_token():
     print banner
     print
-    username = raw_input("[+] username : ")
-    password = raw_input("[+] password : ")
-    print "[{}]{} Generate Access Token Please Wait....".format(info,good)
+    username = raw_input("[+] ID/Username : ")
+    password = raw_input("[+] Pass : ")
+    print "[{}]{} Sabar Gan ....".format(info,good)
     time.sleep(5)
     if len(username) == 0:
          print "[{}]{} You Must Input Your {}Username{} !!!".format(info,good)
@@ -123,7 +123,7 @@ def generate_token():
         file_token_access.close()
         try:
             print "[{}]{} STATUS : {}".format(info,good,success)
-            print "[{}]{} SAVED FILE WITH NAME : token.txt".format(info,good)
+            print "[{}]{} Tersimpan: token.txt".format(info,good)
         except:
             print "[{}]{} Error Operation System".format(info,bad)
 
