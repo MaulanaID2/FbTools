@@ -1,5 +1,6 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
+# coded by kereh
 
 try:
     import mechanize,requests,os,sys,subprocess,cookielib,time,random
@@ -22,15 +23,10 @@ failed = "\033[1;31mFailed\033[0m"
 
 ###banner###
 banner_menu = """
-failed = "\033[1;31mFailed\033[0m"
-
-###banner###
-banner_menu = """
-
-  
 
 
-                                            `oddhhhhyysss
+
+                                     `oddhhhhyysss
                                     .ydhhhddyyso+/
                                    -hdyssyh-      
 //::--..``             ./`  `     -ddhssyy`       
@@ -55,21 +51,20 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 `````...-++//::--:-:::::::///+:`--::----:+.       
 .-.````.:::+++++/++:/:----:-...://///:---+`       
 .``````:-....:+yyys+++/:-----://++++++++oo-       
-                                                                                             
-                                                                                                    
 
-Author : {}Mr.K3R3H{}
-Github : {}https://github.com/kereh{}
-[+] Menu Bot [+]
-[1] Generate Access Token
-[2] Auto Like On Your Post 200
-[3] Auto Commenter On Your Post
-[4] Auto Friend Requests On Your Account
+
+
+Created.           : {}MaulanaID{}
+Github.            : {}https://github.com/MaulanaID{}
+-----------Menu Bot------------
+1 Cari acces Token Disini!
+2 AUTO LIKE! MAX.200
+3 AUTO COMMENT
+4 AUTO FRIEND REQUEST
 """.format(green,normal,green,normal)
 
 banner = """
-
-                                         `oddhhhhyysss
+                                      `oddhhhhyysss
                                     .ydhhhddyyso+/
                                    -hdyssyh-      
 //::--..``             ./`  `     -ddhssyy`       
@@ -94,8 +89,6 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 `````...-++//::--:-:::::::///+:`--::----:+.       
 .-.````.:::+++++/++:/:----:-...://///:---+`       
 .``````:-....:+yyys+++/:-----://++++++++oo-       
-                                      
-                                                                                                    
 Author : {}Mr.K3R3H{}                                                                     
 Facebook : {}Ronaldo Kereh{}
 Github : {}https://github.com/kereh{}
