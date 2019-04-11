@@ -61,7 +61,7 @@ Github.            : {}https://github.com/MaulanaID{}
                   2 AUTO LIKE! MAX.200!
                      3 AUTO COMMENT!
                   4 AUTO FRIEND REQUEST!
-""".format(green,normal,green,normal)
+""".format(red,blue,cyan,yellow,green,purple)
 
 banner = """
                                       `oddhhhhyysss
@@ -92,7 +92,7 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 Author : {}MaulanaID{}                                                                     
 Facebook : {}Maulana ID{}
 Github : {}https://github.com/MaulanaID{}
-""".format(green,normal,cyan,normal,green,normal)
+""".format(red,blue,cyan,yellow,green,purple)
 ###
 
 
@@ -148,7 +148,7 @@ def autolike():
 def comment():
     print banner
     print
-    print "[{}]{} Sending Commenter On Your Newest Post Please Wait...".format(info,good)
+    print "[{}]{} sabar yah😙...".format(info,good)
     token = open("token.txt","r").read()
     a = br.open("https://yolikers.com/commenter.php?type=status")
     br.select_form(nr=0)
@@ -165,7 +165,7 @@ def comment():
 def friend():
     print banner
     print
-    print "[{}]{} Sending 30 Friend Request On Your Facebook Account...".format(info,good)
+    print "[{}]{} sabar yah 😙...".format(info,good)
     token = open("token.txt","r").read()
     a = br.open("https://yolikers.com/")
     br.select_form(nr=0)
