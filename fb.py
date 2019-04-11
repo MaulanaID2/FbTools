@@ -61,7 +61,7 @@ Github.            : {}https://github.com/MaulanaID{}
                   2 AUTO LIKE! MAX.200!
                      3 AUTO COMMENT!
                   4 AUTO FRIEND REQUEST!
-""".format(red,cyan,yellow,green,purple)
+""".format(red,cyan,green)
 
 banner = """
                                       `oddhhhhyysss
@@ -92,7 +92,7 @@ yyyyyysymddddmms.     -o./+-..   .ddsso.
 Author : {}MaulanaID{}                                                                     
 Facebook : {}Maulana ID{}
 Github : {}https://github.com/MaulanaID{}
-""".format(red,cyan,yellow,green,purple)
+""".format(red,cyan,green)
 ###
 
 
