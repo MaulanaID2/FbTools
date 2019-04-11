@@ -136,14 +136,14 @@ def autolike():
     br.form["access_token"] = token
     br.submit()
     try:
-        react = raw_input("[+] type reaction ['LIKE','LOVE','HAHA','WOW','SAD','ANGRY'] : ")
+        react = raw_input("[+] Mau Reaksi Paan njer? ['LIKE','LOVE','HAHA','WOW','SAD','ANGRY'] : ")
         d = br.open("https://yolikers.com/like.php?type=status")
         br.select_form(nr=0)
         br.form["type"] = [""+react]
         br.submit()
-        print "[{}][+] Success Sending Like..".format(info,good)
+        print "[{}][+] Udh Gan..".format(info,good)
     except:
-        print "[{}][+] Use After 15 Minute..".format(info,bad)
+        print "[{}][+] Nanti lagi njink ".format(info,bad)
 
 def comment():
     print banner
@@ -158,9 +158,9 @@ def comment():
         b = br.open("https://yolikers.com/commenter.php?type=status")
         br.select_form(nr=0)
         br.submit()
-        print "[{}]{} Sending Commenter Success..".format(info,good)
+        print "[{}]{} Udh Njink..".format(info,good)
     except:
-        print "[{}]{} Use After 15 Minute..".format(info,bad)
+        print "[{}]{} Nanti lagi yah Bgsd..".format(info,bad)
 
 def friend():
     print banner
@@ -174,18 +174,18 @@ def friend():
         b = br.open("https://yolikers.com/autorequest.php?type=profile")
         br.select_form(nr=0)
         br.submit()
-        print "[{}]{} Sending 30 Friend Request Success...".format(info,good)
+        print "[{}]{} Success Njenk...".format(info,good)
     except:
-        print "[{}]{} Use After 15 Minute...".format(info,good)
+        print "[{}]{} nanti lagi bgsd...".format(info,good)
 
 
 if __name__=="__main__":
     while True:
         print banner_menu
         print
-        pilih_menu = raw_input("[+] Enter Your Choice : ")
+        pilih_menu = raw_input("[+] Kau mau apaan ?😙: ")
         if len(pilih_menu) == 0:
-            print "{} You Must Input Your Choice !!!".format(bad)
+            print "{} Kau mau paan Tod !!!".format(bad)
         elif pilih_menu == "1":
             generate_token()
             time.sleep(5)
