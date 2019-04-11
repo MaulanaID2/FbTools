@@ -1,6 +1,6 @@
 #!/usr/bin/python2
 # -*- coding: utf-8 -*-
-# coded by kereh
+# coded by MaulanaTeam
 
 try:
     import mechanize,requests,os,sys,subprocess,cookielib,time,random
